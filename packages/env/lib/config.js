@@ -265,7 +265,7 @@ function includeTestsPath( source ) {
  * Throws an error if the variable cannot be parsed to a number.
  * Returns null if the environment variable has not been specified.
  *
- * @param {string} varName The environment variable to check (i.e. WP_ENV_PORT)
+ * @param {string} varName The environment variable to check (e.g. WP_ENV_PORT).
  * @return {null|number} The number. Null if it does not exist.
  */
 function getNumberFromEnvVariable( varName ) {
